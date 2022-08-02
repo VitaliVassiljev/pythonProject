@@ -7,5 +7,3 @@ for num1 in range(100):
         print(num1, 'Fizz')
     elif num1 % 5 == 0:
         print(num1, 'Buzz')
-git
-
