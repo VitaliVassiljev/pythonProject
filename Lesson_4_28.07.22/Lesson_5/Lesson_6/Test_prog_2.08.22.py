@@ -18,23 +18,41 @@
                 # Второе задание:
 
 
-from math import sqrt
-leg_a = float(input("Enter leg A: "))
-leg_b = float(input("Enter leg B: "))
-print("Hypotenuse = sqrt(a * a + b * b)")
-print("The length of the hypotenuse is c")
+# from math import sqrt
+# leg_a = float(input("Enter leg A: "))
+# leg_b = float(input("Enter leg B: "))
+# print("Hypotenuse = sqrt(a * a + b * b)")
+# print("The length of the hypotenuse is c")
+#
+# print(str("Your answer is:"))
+# c = sqrt(leg_a**2 + leg_b**2)
+# print(c)
 
-print(str("Your answer is:"))
-c = sqrt(leg_a**2 + leg_b**2)
-print(c)
+                        # Третье задание:
+
+
+a = float(input("Enter side a:"))
+b = float(input("Enter side b:"))
+c = float(input("Enter side c:"))
+
+right_triangle = (c ** 2 == a ** 2 + b ** 2)
+print(right_triangle)
+
+
+
+
+
+
 
 
                  # Задание четвертое:
 
-# Numbers = input('Enter your numbers or list:\n')
-# print(*Numbers[::-1])
+# numbers = input('Enter your numbers:')
+# print(*numbers[::-1], (sorted(list)))
 
-
-
+# numbers = input('Enter your numbers:')
+# # numbers = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+# numbers.sort(reverse=True)
+# print(numbers)
 
 
