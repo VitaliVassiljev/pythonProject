@@ -31,28 +31,31 @@
                         # Третье задание:
 
 
-a = float(input("Enter side a:"))
-b = float(input("Enter side b:"))
-c = float(input("Enter side c:"))
-
-right_triangle = (c ** 2 == a ** 2 + b ** 2)
-print(right_triangle)
-
-
+# a = float(input("Enter side a:"))
+# b = float(input("Enter side b:"))
+# c = float(input("Enter side c:"))
+#
+# right_triangle = (c ** 2 == a ** 2 + b ** 2)
+# print(right_triangle)
 
 
 
 
 
 
-                 # Задание четвертое:
-
-# numbers = input('Enter your numbers:')
-# print(*numbers[::-1], (sorted(list)))
-
-# numbers = input('Enter your numbers:')
-# # numbers = [9, 8, 7, 6, 5, 4, 3, 2, 1]
-# numbers.sort(reverse=True)
-# print(numbers)
 
 
+                 # Задание четвертое: .split
+
+# numbers = input('Enter your numbers:').split(', ')
+# # print(*numbers[::-1], (sorted(list)))
+# for entry in numbers[::-1]:
+#
+# # numbers = input('Enter your numbers:')
+# # # numbers = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+# # numbers.sort(reverse=True)
+#     print(numbers)
+
+               # Пятое задание.
+
+tuple_1 = list(tuple_1)
