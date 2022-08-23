@@ -69,9 +69,9 @@ while True:
                 print('Your birth region:' + brplace)
             elif user_choice == '4':
                 pass
-                # if int(isikukood[10]) == (0, 1, 2, 3, 4, 5, 6, 7, 8, 9):
-                #     valid = 'OK'
-                #     print(' Your ID is undefined! ' + valid)
+                if int(isikukood[10]) == (0, 1, 2, 3, 4, 5, 6, 7, 8, 9):
+                    valid = 'OK'
+                    print(' Your ID is undefined! ' + valid)
             elif user_choice == '5':
                 break
             elif user_choice == '0':
