@@ -8,7 +8,7 @@
 
 side_a = float(input("Enter side A:"))
 side_b = float(input("Enter side B:"))
-side_c = Float(input("Enter side C:"))
+side_c = float(input("Enter side C:"))
 
 half_perimetr = (side_a + side_b + side_c) / 2
 triangle_area = half_perimetr + (half_perimetr - side_a) *\
